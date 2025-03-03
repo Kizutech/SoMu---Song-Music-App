@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SoMuSongMusic"
+        tools:targetApi="31">
+        <activity
+            android:name=".MusicPlayer14"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer13"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer12"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer11"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer10"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer9"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer8"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer7"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer6"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer5"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer4"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer3"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer2"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer1"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer"
+            android:exported="false" />
+        <activity
+            android:name=".OneDirection"
+            android:exported="false" />
+        <activity
+            android:name=".MaroonFive"
+            android:exported="false" />
+        <activity
+            android:name=".ImagineDragonPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".JVKEPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".AlecBenjaminPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ShilohDynastyPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".UnknownBrainPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".TheFatRatPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".NEFFEXPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".RarinPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".BrxkenbxyPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".oneNonlyPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".BowWithUkePlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".MarshmelloPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".AlanWalkerPlaylist"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
